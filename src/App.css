@@ -1,12 +1,34 @@
 .app-wrapper {
-  margin: 0 auto;
-  display: grid;
-  width: 1200px;
-  grid-template-areas:
-  "h h"
-  "n c";
+    margin: 0 auto;
+    display: grid;
+    width: 1200px;
+    grid-template-areas: "h h" "n c";
 
-   grid-template-rows: 60px 1fr;
+    grid-template-rows: 60px 1fr;
     grid-template-columns: 2fr 10fr;
     /* grid-gap: 10px; */
 }
+
+.app-wrapper-content {
+    grid-area: c;
+    background-color: cornflowerblue;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+
+/messages
+/dialogs
+
+/dialogs/3
+/dialogs/2
+
+*/
