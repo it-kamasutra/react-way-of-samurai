@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/test-bla-repo/static/css/main.f71074d5.chunk.css",
-    "main.js": "/test-bla-repo/static/js/main.2562d732.chunk.js",
-    "main.js.map": "/test-bla-repo/static/js/main.2562d732.chunk.js.map",
-    "runtime~main.js": "/test-bla-repo/static/js/runtime~main.1ef74007.js",
-    "runtime~main.js.map": "/test-bla-repo/static/js/runtime~main.1ef74007.js.map",
-    "static/js/2.8d4a10f1.chunk.js": "/test-bla-repo/static/js/2.8d4a10f1.chunk.js",
-    "static/js/2.8d4a10f1.chunk.js.map": "/test-bla-repo/static/js/2.8d4a10f1.chunk.js.map",
-    "index.html": "/test-bla-repo/index.html",
-    "precache-manifest.553af0f410e4425d7573a94b31eee8a2.js": "/test-bla-repo/precache-manifest.553af0f410e4425d7573a94b31eee8a2.js",
-    "service-worker.js": "/test-bla-repo/service-worker.js",
-    "static/css/main.f71074d5.chunk.css.map": "/test-bla-repo/static/css/main.f71074d5.chunk.css.map",
-    "static/media/preloader.svg": "/test-bla-repo/static/media/preloader.6c3daf60.svg",
-    "static/media/user.png": "/test-bla-repo/static/media/user.8b1dbb1f.png"
+    "main.css": "/react-way-of-samurai/static/css/main.f71074d5.chunk.css",
+    "main.js": "/react-way-of-samurai/static/js/main.7c92b8f2.chunk.js",
+    "main.js.map": "/react-way-of-samurai/static/js/main.7c92b8f2.chunk.js.map",
+    "runtime~main.js": "/react-way-of-samurai/static/js/runtime~main.c6fc2095.js",
+    "runtime~main.js.map": "/react-way-of-samurai/static/js/runtime~main.c6fc2095.js.map",
+    "static/js/2.8d4a10f1.chunk.js": "/react-way-of-samurai/static/js/2.8d4a10f1.chunk.js",
+    "static/js/2.8d4a10f1.chunk.js.map": "/react-way-of-samurai/static/js/2.8d4a10f1.chunk.js.map",
+    "index.html": "/react-way-of-samurai/index.html",
+    "precache-manifest.72df3c376082e51d20b162bcdb1426df.js": "/react-way-of-samurai/precache-manifest.72df3c376082e51d20b162bcdb1426df.js",
+    "service-worker.js": "/react-way-of-samurai/service-worker.js",
+    "static/css/main.f71074d5.chunk.css.map": "/react-way-of-samurai/static/css/main.f71074d5.chunk.css.map",
+    "static/media/preloader.svg": "/react-way-of-samurai/static/media/preloader.6c3daf60.svg",
+    "static/media/user.png": "/react-way-of-samurai/static/media/user.8b1dbb1f.png"
   }
 }
