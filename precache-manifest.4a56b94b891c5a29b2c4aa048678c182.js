@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc5781e1010df5f6ff0181a47db16d31",
+    "revision": "733005943674b3bda9cd46ff66ca8fbd",
     "url": "/react-way-of-samurai/index.html"
   },
   {
-    "revision": "c646eadab11b0e864424",
+    "revision": "9f66a23b348da6a554e3",
     "url": "/react-way-of-samurai/static/css/main.f71074d5.chunk.css"
   },
   {
-    "revision": "8433ff5e85656187b8f4",
-    "url": "/react-way-of-samurai/static/js/2.8d4a10f1.chunk.js"
+    "revision": "111beb8737894097999f",
+    "url": "/react-way-of-samurai/static/js/2.554a2a76.chunk.js"
   },
   {
-    "revision": "c646eadab11b0e864424",
-    "url": "/react-way-of-samurai/static/js/main.7c92b8f2.chunk.js"
+    "revision": "9f66a23b348da6a554e3",
+    "url": "/react-way-of-samurai/static/js/main.a7ca63b9.chunk.js"
   },
   {
     "revision": "e9ac23790aafa4fa0efc",
