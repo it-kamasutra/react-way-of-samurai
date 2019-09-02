@@ -24,8 +24,7 @@ class App extends Component {
         }
 
         return (
-            <BrowserRouter>
-                <Provider store={store}>
+
                     <div className='app-wrapper'>
                         <HeaderContainer/>
                         <Navbar/>
@@ -43,8 +42,7 @@ class App extends Component {
                                    render={() => <LoginPage/>}/>
                         </div>
                     </div>
-                </Provider>
-            </BrowserRouter>
+
         )
     }
 }
