@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "88518321ed1980a71a0dd7339cf76e9a",
+    "revision": "4cea2329b5f88075815b467abca11cd6",
     "url": "/react-way-of-samurai/index.html"
   },
   {
-    "revision": "1ceee4b0cc33cff695d0",
+    "revision": "25844e7732b651db618b",
     "url": "/react-way-of-samurai/static/css/3.b89efed7.chunk.css"
   },
   {
@@ -12,28 +12,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-way-of-samurai/static/css/4.4a1df740.chunk.css"
   },
   {
-    "revision": "9d66fc772b9507ac0cb4",
+    "revision": "becce775043fca970d12",
     "url": "/react-way-of-samurai/static/css/main.a4407f67.chunk.css"
   },
   {
-    "revision": "24599dbd2148f441048c",
-    "url": "/react-way-of-samurai/static/js/2.23ac8422.chunk.js"
+    "revision": "3fd56f6b8094f616e991",
+    "url": "/react-way-of-samurai/static/js/2.e6cbbe35.chunk.js"
   },
   {
-    "revision": "1ceee4b0cc33cff695d0",
-    "url": "/react-way-of-samurai/static/js/3.d67a4380.chunk.js"
+    "revision": "25844e7732b651db618b",
+    "url": "/react-way-of-samurai/static/js/3.51d6dcba.chunk.js"
   },
   {
     "revision": "41f97587df431a877316",
     "url": "/react-way-of-samurai/static/js/4.4c5fe437.chunk.js"
   },
   {
-    "revision": "9d66fc772b9507ac0cb4",
-    "url": "/react-way-of-samurai/static/js/main.15025c96.chunk.js"
+    "revision": "becce775043fca970d12",
+    "url": "/react-way-of-samurai/static/js/main.54265172.chunk.js"
   },
   {
-    "revision": "4312750b3addf2170517",
-    "url": "/react-way-of-samurai/static/js/runtime~main.fd0cdafd.js"
+    "revision": "056bcd7ce7cdf5adde76",
+    "url": "/react-way-of-samurai/static/js/runtime~main.606cf93a.js"
   },
   {
     "revision": "6c3daf6085e46eea1698990ad3578119",
