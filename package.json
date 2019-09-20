@@ -5,7 +5,7 @@
   "main": "precache-manifest.0a26c5533c606459f5b903f377b4cfae.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "SET PORT=80 && node server.js"
+    "start": "SET PORT=443 && node server.js"
   },
   "repository": {
     "type": "git",
