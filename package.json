@@ -1,0 +1,24 @@
+{
+  "name": "react-way-of-samurai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "precache-manifest.0a26c5533c606459f5b903f377b4cfae.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "SET PORT=80 && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/it-kamasutra/react-way-of-samurai.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/it-kamasutra/react-way-of-samurai/issues"
+  },
+  "homepage": "https://github.com/it-kamasutra/react-way-of-samurai#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1"
+  }
+}
