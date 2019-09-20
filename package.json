@@ -2,7 +2,6 @@
   "name": "react-way-of-samurai",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://it-kamasutra.github.io/react-way-of-samurai",
   "dependencies": {
     "axios": "^0.18.0",
     "classnames": "^2.2.6",
@@ -17,7 +16,7 @@
     "reselect": "^4.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set PORT=80 && react-scripts start port=",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
