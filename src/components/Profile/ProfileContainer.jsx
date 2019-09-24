@@ -20,7 +20,6 @@ class ProfileContainer extends React.Component {
     }
 
     componentDidMount() {
-
         this.refreshProfile();
     }
 
@@ -31,7 +30,6 @@ class ProfileContainer extends React.Component {
     }
 
     render() {
-       // console.log("RENDER PROFILE");
         return (
             <Profile {...this.props}
                     isOwner={!this.props.match.params.userId}
