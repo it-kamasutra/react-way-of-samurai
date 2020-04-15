@@ -2,8 +2,7 @@ import React from 'react';
 import {connect, DefaultRootState} from 'react-redux';
 import {
     follow,
-    setCurrentPage,
-    unfollow, toggleFollowingProgress, requestUsers
+    unfollow, requestUsers
 } from '../../redux/users-reducer';
 import Users from './Users';
 import Preloader from "../common/Preloader/Preloader";
