@@ -1,6 +1,6 @@
 import React from 'react';
 import {Field, InjectedFormProps, reduxForm} from "redux-form";
-import {createField, Input} from "../common/FormsControls/FormsControls";
+import {createField, GetStringKeys, Input} from "../common/FormsControls/FormsControls";
 import {required} from "../../utils/validators/validators";
 import {connect} from "react-redux";
 import {login} from "../../redux/auth-reducer";
@@ -11,9 +11,6 @@ import {AppStateType} from '../../redux/redux-store';
 type LoginFormOwnProps = {
     captchaUrl: string | null
 }
-
-
-
 
 const LoginForm: React.FC<InjectedFormProps<LoginFormValuesType, LoginFormOwnProps> & LoginFormOwnProps>
     = ({handleSubmit, error, captchaUrl}) => {
@@ -54,10 +51,7 @@ export type LoginFormValuesType = {
     password: string
     email: string
 }
-type LoginFormValuesTypeKeys = Extract<keyof LoginFormValuesType, string>
-
-
-
+type LoginFormValuesTypeKeys = GetStringKeys<LoginFormValuesType>
 
 const Login: React.FC<MapStatePropsType & MapDispatchPropsType> = (props) => {
     const onSubmit = (formData: LoginFormValuesType) => {

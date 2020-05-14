@@ -49,6 +49,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-test-renderer": "^16.9.2",
     "gh-pages": "^2.1.1",
     "react-test-renderer": "^16.8.6"
   }
