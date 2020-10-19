@@ -13,10 +13,11 @@ import {
     getUsersFilter
 } from '../../redux/users-selectors'
 import {useHistory} from 'react-router-dom'
-import * as queryString from 'query-string'
+import * as queryString from 'querystring'
 
 type PropsType = {}
 
+type QueryParamsType = { term?: string; page?: string; friend?: string }
 export const Users: FC<PropsType> = (props) => {
 
     const users = useSelector(getUsers)
@@ -25,56 +26,66 @@ export const Users: FC<PropsType> = (props) => {
     const pageSize = useSelector(getPageSize)
     const filter = useSelector(getUsersFilter)
     const followingInProgress = useSelector(getFollowingInProgress)
-    const history = useHistory()
 
     const dispatch = useDispatch()
-
-    const parsed: {
-        term?: string
-        friend?: 'true' | 'false' | 'null'
-        page?: string
-    } = queryString.parse(history.location.search)
-    const actualFilter = {...filter}
-    let actualPage = currentPage
-
-    if (parsed.term) {
-        actualFilter.term = parsed.term
-    }
-    if (parsed.friend) {
-        actualFilter.friend = parsed.friend === 'true' ? true : parsed.friend === 'false' ? false : null
-    }
-    if (parsed.page && parsed.page !== '1') {
-        actualPage = +parsed.page
-    }
+    const history = useHistory()
 
     useEffect(() => {
+        const parsed = queryString.parse(history.location.search.substr(1)) as QueryParamsType
+
+        let actualPage = currentPage
+        let actualFilter = filter
+
+        if (!!parsed.page) actualPage = Number(parsed.page)
+
+
+        if (!!parsed.term) actualFilter = {...actualFilter, term: parsed.term as string}
+
+        switch(parsed.friend) {
+            case "null":
+                actualFilter = {...actualFilter, friend: null}
+                break;
+            case "true":
+                actualFilter = {...actualFilter, friend: true}
+                break;
+            case "false":
+                actualFilter = {...actualFilter, friend: false}
+                break;
+        }
+
         dispatch(requestUsers(actualPage, pageSize, actualFilter))
     }, [])
 
-    const onPageChanged = (pageNumber: number) => {
+    useEffect(() => {
+        const query: QueryParamsType = {}
+
+        if (!!filter.term) query.term = filter.term
+        if (filter.friend !== null) query.friend = String(filter.friend)
+        if (currentPage !== 1) query.page = String(currentPage)
+
         history.push({
             pathname: '/users',
-            search: `?term=${filter.term}&friend=${filter.friend}&page=${pageNumber}`
+            search: queryString.stringify(query)
         })
+    }, [filter, currentPage])
+
+
+    const onPageChanged = (pageNumber: number) => {
         dispatch(requestUsers(pageNumber, pageSize, filter))
     }
     const onFilterChanged = (filter: FilterType) => {
-        history.push({
-            pathname: '/users',
-            search: `?term=${filter.term}&friend=${filter.friend}&page=${actualPage}`
-        })
         dispatch(requestUsers(1, pageSize, filter))
     }
     const follow = (userId: number) => {
-        dispatch(follow(userId))
+        dispatch(follow(userId));
     }
     const unfollow = (userId: number) => {
-        dispatch(unfollow(userId))
+        dispatch(unfollow(userId));
     }
 
     return <div>
 
-        <UsersSearchForm onFilterChanged={onFilterChanged} initialValue={actualFilter} />
+        <UsersSearchForm onFilterChanged={onFilterChanged}/>
 
         <Paginator currentPage={currentPage} onPageChanged={onPageChanged}
                    totalItemsCount={totalUsersCount} pageSize={pageSize}/>
