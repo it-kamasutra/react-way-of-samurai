@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d84a46840bfdddb46defdf5a63036aa3",
+    "revision": "daf9f565377fb96d2a69213f5c720e2d",
     "url": "/react-way-of-samurai/index.html"
   },
   {
@@ -8,36 +8,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-way-of-samurai/static/css/3.6662ee33.chunk.css"
   },
   {
-    "revision": "33791445920df6c8abf3",
+    "revision": "3e81493e0e4ba371e684",
     "url": "/react-way-of-samurai/static/css/4.4a1df740.chunk.css"
   },
   {
-    "revision": "ed3098da90ce727cc27f",
-    "url": "/react-way-of-samurai/static/css/main.1522eafe.chunk.css"
+    "revision": "7daaff8f0bbaa0ea3c31",
+    "url": "/react-way-of-samurai/static/css/main.57c14dc2.chunk.css"
   },
   {
-    "revision": "7a0a89e507b6cc8c5d53",
-    "url": "/react-way-of-samurai/static/js/2.b0d6d990.chunk.js"
+    "revision": "fec3c24ef64ea30e7271",
+    "url": "/react-way-of-samurai/static/js/2.798fb667.chunk.js"
   },
   {
     "revision": "cacaf3f01dd3bd8237006f7c58951c1c",
-    "url": "/react-way-of-samurai/static/js/2.b0d6d990.chunk.js.LICENSE.txt"
+    "url": "/react-way-of-samurai/static/js/2.798fb667.chunk.js.LICENSE.txt"
   },
   {
     "revision": "f544f5b4ed7bc5dcb145",
     "url": "/react-way-of-samurai/static/js/3.2dd626d6.chunk.js"
   },
   {
-    "revision": "33791445920df6c8abf3",
-    "url": "/react-way-of-samurai/static/js/4.11b3be1d.chunk.js"
+    "revision": "3e81493e0e4ba371e684",
+    "url": "/react-way-of-samurai/static/js/4.c543613a.chunk.js"
   },
   {
-    "revision": "ed3098da90ce727cc27f",
-    "url": "/react-way-of-samurai/static/js/main.46d69763.chunk.js"
+    "revision": "7daaff8f0bbaa0ea3c31",
+    "url": "/react-way-of-samurai/static/js/main.c82b97af.chunk.js"
   },
   {
-    "revision": "ae77c1d35fee7364957a",
-    "url": "/react-way-of-samurai/static/js/runtime-main.335fd367.js"
+    "revision": "d2e4cba6d989f7f48b89",
+    "url": "/react-way-of-samurai/static/js/runtime-main.758f3d90.js"
   },
   {
     "revision": "6e7c9db7e1f100edac7c6e48714d2ea0",
