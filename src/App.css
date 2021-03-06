@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 .app-wrapper {
     margin: 0 auto;
     display: grid;
@@ -33,6 +34,11 @@
 /dialogs/2
 
 */
+=======
+ul li {
+  list-style-type: georgian;
+}
+>>>>>>> parent of 1f9623b (12: profile, header, navbar)
 =======
 ul li {
   list-style-type: georgian;
